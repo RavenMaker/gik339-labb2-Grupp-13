@@ -9,7 +9,17 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-
+.button{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    background-color: gray;
+}
+.responsBox{
+    width: 80%;
+    height: 2rem;
+    background-color: lightgray;
+}
 .contaner{
     width: 25rem;
     height: 20rem;
@@ -25,7 +35,7 @@ body{
     height: 40%;
     background-color: dimgray;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     .label{
         display: flex;
