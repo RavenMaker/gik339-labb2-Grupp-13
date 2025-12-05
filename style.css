@@ -1,13 +1,18 @@
 body{
-    background-color: rgb(248, 248, 248);
-    margin: 0px;
-    padding: 1rem;
+    background-color:#EFEDF1;
+    margin:0;
     width: 97vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    font-weight:900;
+   
+}
+h1{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .button{
     width: 4rem;
@@ -23,49 +28,58 @@ body{
     color:white;
 }
 .responsBox{
-    width: 80%;
-    height: 2rem;
-    background-color:#f0f0f0;
+    width: 10rem;;
+    height: 1.5rem;
+    background-color:#ffffff;
+    border-radius: 0.5rem;
+    border: solid black;
+    padding:1rem;
+    
+
 }
 .container{
     width: auto;
-    padding: 20px;
-    border-radius: 12px;
-    border:solid gray;
-    box-shadow: 0 4 12 rgba(0,0,0,0.15);
-    background-color:#efefef;
-    transition: all 0.3 ease;
-    font-family:'arial';
-    min-height:50px;
+    max-width:400px;
+    padding: 2rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
+    border:solid gray;
+    box-shadow: 0 4 12 rgba(0,0,0,0.15);
+    background-color:#ffff;
+    transition: all 0.3 ease;
+    font-family:'arial';
+    border-radius: 1rem;
+    
+    
 }
 .box{
     width: 90%;
-    height: 40%;
-    padding: 2rem;
+    gap:2rem;
+    padding:1rem;
     border-radius: 12px;
- 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    .label{
-        display: flex;
-        justify-content: center;
-        width: 8rem;
-        height: 1rem;
-    }
-    .textfield{
+    justify-content: flex-start;
+   .checkbox{
         width: 10rem;
         height: 1rem;
-    }
-    .checkbox{
-        width: 10rem;
-        height: 1rem;
-        color:black;
+        color:rgb(167, 5, 5);
         
     }
+    
+
+}
+
+.box label{
+   font-weight:600;
+   color:#333;
+
+}
+.card-background{
+   
+    background-color: #EFEDF1;
+    border radiu:
 }
