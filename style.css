@@ -1,5 +1,5 @@
 body{
-    background-color: midnightblue;
+    background-color: rgb(248, 248, 248);
     margin: 0px;
     padding: 1rem;
     width: 97vw;
@@ -13,27 +13,42 @@ body{
     width: 4rem;
     height: 2rem;
     border-radius: 0.6rem;
-    background-color: gray;
+    border: solid rgb(121, 0, 0) ;
+    margin: 0.5rem;
+    padding: 1rem;
+   
+    width:auto;
+    height:Auto;
+    background-color: rgb(185, 1, 1);
+    color:white;
 }
 .responsBox{
     width: 80%;
     height: 2rem;
-    background-color: lightgray;
+    background-color:#f0f0f0;
 }
-.contaner{
-    width: 25rem;
-    height: 20rem;
+.container{
+    width: auto;
+    padding: 20px;
+    border-radius: 12px;
+    border:solid gray;
+    box-shadow: 0 4 12 rgba(0,0,0,0.15);
+    background-color:#efefef;
+    transition: all 0.3 ease;
+    font-family:'arial';
+    min-height:50px;
     border-radius: 1rem;
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    
     align-items: center;
 }
 .box{
     width: 90%;
     height: 40%;
-    background-color: dimgray;
+    padding: 2rem;
+    border-radius: 12px;
+ 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,5 +65,7 @@ body{
     .checkbox{
         width: 10rem;
         height: 1rem;
+        color:black;
+        
     }
 }
