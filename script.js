@@ -2,7 +2,7 @@
 
 const checkbox = document.getElementById("divStyle"); // hämtar element med id divStyle (kryssrutan)
 const textfield = document.querySelectorAll(".textfield"); //hämtar alla text fält klasser
-const button = document.getElementsByClassName(".button"); // hämtar  klassen knapp 
+const button = document.getElementsByClassName("button"); // hämtar  klassen knapp 
 const div = document.getElementById("responsFromJsToHTML"); // hämtar elementet med id responsFromJsToHTML fältet förändringen ska ske i.
 
 
@@ -13,7 +13,7 @@ function eventListener(e){
     //e.target = elementet, name = värdet i elementet. Sparar i input
     const input = e.target.name  
     if(input ==="content"){ // om värdet är lika med fältet  
-        div.innerHTML = e.target.value; //Skriver över innerhållet med inputen 
+        div.innerHTML = e.target.value; //Skriver ut innerhållet med inputen 
 
     }
 }
