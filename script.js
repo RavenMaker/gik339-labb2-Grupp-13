@@ -23,10 +23,11 @@ function eventListener(e){
 // ber webbläsaren lyssna på checkbox elementet 
 checkbox.addEventListener("change", function(){ 
     //När change händer körs function () 
-    console.log("box ändras");
-
+    console.log("div ändras");
+    
     const newColor = color.value // sparar värdet från color i variabeln newColor
     div.style.backgroundColor = newColor;
+
 
 });
 
@@ -42,6 +43,9 @@ textFields.forEach(field => {
 const btn = document.querySelector(".button");
 
 btn.addEventListener("click",function(){
-    div.innerHTML = "";
-    div.style.backgroundColor ="";
+    //div.innerHTML = "";
+    //div.style.backgroundColor ="";
+    //div.
+    console.log("responsFromJsToHTML tagits bort");
+    div.remove();
 });
